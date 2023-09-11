@@ -1,0 +1,18 @@
+.Header {
+    background-color: #3b1fb6;
+    color: #fff;
+    width: 150px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 20px;
+    
+    /* Add border properties */
+    border: 2px solid #000; /* You can customize the border color and width */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
