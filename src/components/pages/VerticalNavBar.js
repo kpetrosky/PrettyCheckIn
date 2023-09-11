@@ -18,11 +18,16 @@ const VerticalNavBar = () => {
         </li>
         <li>
           <NavLink to="/Wrt101am" activeClassName="active">
-            Writing 101 Am
+            Writing 101 AM
           </NavLink>
         </li>
         <li>
-          <NavLink to="/homework" activeClassName="active">
+          <NavLink to="/Wrt101pm" activeClassName="active">
+            Writing 101 PM
+          </NavLink>
+        </li>
+        {/* <li> */}
+          {/* <NavLink to="/homework" activeClassName="active">
             Homework
           </NavLink>
         </li>
@@ -30,7 +35,7 @@ const VerticalNavBar = () => {
           <NavLink to="/syllabus" activeClassName="active">
             Syllabus
           </NavLink>
-        </li>
+        </li> */}
         <li>
           <NavLink to="/contact" activeClassName="active">
             Contact
